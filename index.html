@@ -1,70 +1,67 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <title>A bit about the internet</title>
-      <style>
-      p {
-        color: skyblue;
-       }
+<html>
+<head>
+  <title>Aroma</title>
+  <link href='css/bootstrap.css' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-</style>
-    </head>
-      <body>
-        <h1>A bit about the internet</h1>
-          <div>
-            <h1 >URL</h1>
+<body>
+  <div class="container">
 
-          <h4 >URL stands for <i>Uniform Resource Locator</i>. It contains serveral different parts, including:</h4>
-        
-            <ul>
-
-          <li> the **protocol**: e.g. http, https, ftp</li>
-          <li> the **host**: e.g. <a href="http://www.facebook.com"/>www.facebook.com</a>,<a href="http://www.bbc.co.uk"/>www.bbc.co.uk</a></li>
-          <li> the **path**: e.g. /news/local, /john.smith.95</li>
-        </div>
-        <div>
-          <h1 >DNS</h1>
-
-          <p >DNS stands for Domain Name System. You buy a domain name from a registrar (e.g. 123-reg, GoDaddy). They arrange for your server's IP address to be added next to the domain name on a DNS server, so that people can find your site. This process can take a couple of days to spread out over the entire internet, as DNS servers take time to update one another using a 'gossiping' mechanism.</p>
-        </div>
-          <h1>Server-side vs. Client-side technologies</h1>
-
-<h4>Client-side</h4>
-
-<h9>Client-side technologies run in your web browser (e.g Firefox, Google Chrome or Internet Explorer). The three main client-side technologies are:</h9>
-
-1. HTML
-2. CSS
-3. Javascript
-
-<h4> Server-side</h4>
-
-<h9>Server-side technologies run on the server. There are many more possibilities here.</h9>
-
-<table>
-      <tr>
-        <th>Technology</th>
-        <th>Description</th>
-      </tr>
-      <tr>
-        <td>Ruby on Rails</td>
-        <td>A web development framework built on the Ruby programming language.</td>
-      </tr>
-      <tr>
-        <td>Node.js</td>
-        <td>	A web development framework built using javascript.</td>
-      </tr>
-      <tr>
-        <td>MySQL</td>
-        <td>A common open-source database.</td>
-      </tr>
-      <tr>
-        <td>php</td>
-        <td>A programming language used for the majority of dynamic sites in the early 2000s.</td>
-      </tr>
-    </table>
+    <div class='jumbotron'>
+      <div class="row">
+        <div class="col-sm-8">
+          <h1>Healthy sandwiches for your team</h1>
+            </div>
+              <div class="col-sm-4">
+                <img src='images/sandwich.png'>
+                  </div>
+                    <form role='form'>
+                      <label for="email">Find out more</label>
+                        <input type="text" name="email" >
+                          <button class="btn btn-success" type="submit">Send</button>
+                            </form>
+                          </div>
+                        </div>
+  <div id="buzz">
+    <h2><small>The Buzz</small><br />What are people saying?</h2>
+    <div class="row">
+      <div class="col-sm-4">
+      <img class="img-circle" src='images/person.jpg'>
+      <p>These sandwiches are the best I've ever tasted, for sure. I now eat them every day - breakfast, lunch and dinner.</p>
+      <small>Mr Smith, Professional sandwich taster</small>
+    </div>
+    <div class="col-sm-4">
+      <img class="img-circle" src='images/person.jpg'>
+      <p>A woman who doesn't wear perfume has no future.</p>
+      <small>~Coco Chanel~</small>
+    </div>
+    <div class="col-sm-4">
+      <img  class="img-circle" src='images/person.jpg'>
+      <p>We switched to Sam's Sarnies and won our first government contract the next day. Coincidence? I think not!</p>
+    </div>
+  </div>
 
 
-Here's a picture of a server: <img src = "local_image.png">
-    </body>
-  </html>
+
+  <div id="mission">
+    <h2><small>Our mission</small><br />Join us in helping busy professionals eat healthily</h2>
+
+    <p>We believe that healthy workers are more productive workers.</p>
+    <p>Providing your team with a healthy lunch each day improves both motivation and morale.</p>
+    <p>We deliver healthy sandwiches, made with the best ingredients, to your workplace every day.</p>
+
+    <div id='social-buttons'>
+      <button class='btn-twitter'>Twitter</button>
+      <button class='btn-facebook'>Facebook</button>
+      <button class='btn-pinterest'>Pinterest</button>
+    </div>
+  </div>
+
+
+</body>
+
+
+<!-- Sandwich from: © Kosoff | <a href="http://www.dreamstime.com/">Dreamstime Stock Photos</a> & <a href="http://www.stockfreeimages.com/">Stock Free Images</a> -->
+</html>
