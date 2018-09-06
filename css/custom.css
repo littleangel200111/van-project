@@ -1,0 +1,34 @@
+footer button{
+  background-color: #337ab7;
+  border-radious:50%;
+  border: none;
+  color:#fff;
+  padding:5px;
+}
+
+footer button a {
+  background-color: #337ab7;
+  border-radious:50%;
+  border: none;
+  color:#fff;
+  padding:5px;
+}
+
+footer button a:active {
+  position: relative;
+  background-color: #fff;
+  border-radious:50%;
+  border: 1px solid #204156;
+  color: #204156;
+  padding:5px;
+}
+
+h1 {
+  font-family:lucida calligraphy;
+  color: #FF1493;
+}
+
+.color{
+  background-color: #;
+  background: #FFF0F5;
+}
