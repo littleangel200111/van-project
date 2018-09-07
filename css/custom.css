@@ -1,3 +1,13 @@
+
+
+#navbar-example a {
+  color: black;
+  
+  z-index: 1;
+  background-color: #ffe6f2;
+}
+
+
 footer button{
   background-color: #dec8c8;
   border-radious:50%;
@@ -33,20 +43,27 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #170c0c;
+    background-color: #ffe6f2;
+    position: relative;
 }
 
 
 .jumbotron {
   text-align: center;
-  background-image:url("/images/flowers.jpg");
+  background-image:url("../images/flowers3.jpg");
   background-repeat: no-repeat;
   background-position: center center;
-  height: 250px;
-  width: 100%;
+  height:447px;
+  width: 1600px;
   background-attachment: fixed;
+  opacity: 100%;
 
 }
+
+.jumbotron1 {
+  background-color: #ffe6f2;
+}
+
 p{
   font-family: lucida calligraphy;
   color: #89169c;
