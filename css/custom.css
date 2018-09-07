@@ -1,43 +1,49 @@
 footer button{
-  background-color: #337ab7;
+  background-color: #dec8c8;
   border-radious:50%;
   border: none;
-  color:#fff;
-  padding:5px;
-}
-
-footer button a {
-  background-color: #337ab7;
-  border-radious:50%;
-  border: none;
-  color:#fff;
-  padding:5px;
-}
-
-footer button a:active {
-  position: relative;
-  background-color: #fff;
-  border-radious:50%;
-  border: 1px solid #204156;
-  color: #204156;
-  padding:5px;
+  color:#000;
+  padding:5px 10px 5px 5px;
+  margin:10px;
 }
 
 h1 {
   font-family:lucida calligraphy;
-  color: Deeppink;
+  color: deeppink;
 }
 
 .color{
-  background-color: #;
   background: #FFF0F5;
 }
-footer{
-  background-color: #1E1E24;
-  background:#1E1E24;
 
+
+.footer {
+  background-color: red;
+  background: #FFF0F5;
+  padding: 0px 0;
 }
-footer p{
+
+.footer p {
   font-family: 'Raleway', sans-serif;
-  font-size:11px;
+  font-size: 11px;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #170c0c;
+}
+
+
+.jumbotron {
+  text-align: center;
+  background-image:url("../images/bird.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 250px;
+  width: 100%;
+  background-attachment: fixed;
+
 }
