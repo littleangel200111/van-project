@@ -1,67 +1,149 @@
 <!DOCTYPE html>
 <html>
-<head>
+ <head>
   <title>Aroma</title>
   <link href='css/bootstrap.css' rel='stylesheet'>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ </head>
 
 <body>
+  <div class="jumbotron">
+  <div class="color">
+   <div class="container">
+     <h1>Aroma</h1>
+     <p>A site for the lovers of fragrances</p>
+   <ul class="breadcrumb">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="articles.html">Articles about perfumes</a></li>
+    <li><a href="https://www.fragranceoutlet.com/">Where to find low prices</a></li>
+
+  </ul>
+   </div>
+ </div>
+
   <div class="container">
 
-    <div class='jumbotron'>
+    <div class='jumbotron img-responsive'>
       <div class="row">
-        <div class="col-sm-8">
+        <div class="col-sm-12">
           <h1>The world of fragrances...</h1>
-            </div>
-              <div class="col-sm-4">
-                <img src='images/sandwich.png'>
-                  </div>
-                    <form role='form'>
-                      <label for="email">Enter your e-mail address to become a member</label>
-                        <input type="text" name="email" >
-                          <button class="btn btn-success" type="submit">Send</button>
-                            </form>
-                          </div>
-                        </div>
+          <iframe width="420" height="300" src="https://www.youtube.com/embed/ABz2m0olmPg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <!-- <div class="col-sm-4">
+          <img src='images/perfumes.jpg'>
+        </div> -->
+        <!-- <form role='form'>
+          <label for="email">Enter your e-mail address to become a member</label>
+            <input type="text" name="email" >
+          <button class="btn btn-success" type="submit">Send</button>
+      </form> -->
+      </div>
+    </div>
+    <div class="container">
+  <h2>Month's Favourites</h2>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width:1000px" style="height:200px" margin-left="200px" >
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active img-responsive">
+        <img src="images/resizeburberry.jpg" alt="My Burberry Blush" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="images/resizeguerlain.jpg" alt="Mon Guerlain" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="images/resizeysl.jpg" alt="Black Opium" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+
+
+
   <div id="buzz">
-    <h2><small>The Buzz</small><br />Famous quotes about perfumes</h2>
+    <h2><br />Famous quotes about perfumes</h2>
     <div class="row">
       <div class="col-sm-4">
-      <img class="img-circle" src='images/person.jpg'>
-      <p>These sandwiches are the best I've ever tasted, for sure. I now eat them every day - breakfast, lunch and dinner.</p>
-      <small>Mr Smith, Professional sandwich taster</small>
+      <img class="img-circle img-responsive" src='images/estee.jpg'>
+      <p>Perfume is like a new dress. It makes you quite marvelous.</p>
+      <small>~Estee Lauder~</small>
     </div>
     <div class="col-sm-4">
-      <img class="img-circle" src='images/coco.jpg' width="100px">
+      <img class="img-circle img-responsive" src='images/coco.jpg'>
       <p>A woman who doesn't wear perfume has no future.</p>
       <small>~Coco Chanel~</small>
     </div>
     <div class="col-sm-4">
-      <img  class="img-circle" src='images/coco.jpg' width="100px">
-      <p>We switched to Sam's Sarnies and won our first government contract the next day. Coincidence? I think not!</p>
+      <img  class="img-circle img-responsive" src='images/Joybell_C.jpg'>
+      <p>You are never fully dressed without perfume.</p>
+      <small>~C. Joybell~</small>
     </div>
   </div>
-
-
-
-  <div id="mission">
-    <h2><small>Our missn</small><br />Join us in helping busy professionals eat healthily</h2>
-
-    <p>We believe that healthy workers are more productive workers.</p>
-    <p>Providing your team with a healthy lunch each day improves both motivation and morale.</p>
-    <p>We deliver healthy sandwiches, made with the best ingredients, to your workplace every day.</p>
-
-    <div id='social-buttons'>
-      <button class='btn-twitter'>Twitter</button>
-      <button class='btn-facebook'>Facebook</button>
-      <button class='btn-pinterest'>Pinterest</button>
     </div>
+
+
+
+<div id="mission">
+  <h2><small>Our mission</small><br />Join us in sharing interesting infos cocncerning perfumes</h2>
+
+  <p>We believe that high wualit ingredients make the best fragrances</p>
+  <p>...............</p>
+  <p>We love........</p>
+</div>
+
+</div>
+
+
+
+  <footer>
+    <div class="container footer">
+      <div id='social-buttons'>
+
+        <button><a class='btn-twitter' href="https://www.twitter.com"><img src="images/twitter.jpg" alt="twitter" style="width:42px;height:42px;border:0;"></a>Twitter</button>
+        <button><a class='btn-facebook'href="https://www.facebook.com/"><img src="images/facebook.jpg" alt="facebook" style="width:42px;height:42px;border:0;"></a>Facebook</button>
+        <button><a class='btn-pinterest'href="https://www.pinterest.com"><img src="images/pinterest.jpg" alt="pinterest" style="width:42px;height:42px;border:0;"></a>Pinterest</button>
+      </div>
+    </div>
+     <div class="footer">
+       <div class="container">
+         <p>&copy; VNA Copyright 2018, POWERED BY VODAFONE. All rights reserved.</p>
+       </div>
+     </div>
   </div>
+  </footer>
 
-
+</div>
 </body>
 
 
-<!-- Sandwich from: © Kosoff | <a href="http://www.dreamstime.com/">Dreamstime Stock Photos</a> & <a href="http://www.stockfreeimages.com/">Stock Free Images</a> -->
 </html>
