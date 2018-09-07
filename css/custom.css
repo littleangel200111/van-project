@@ -2,7 +2,7 @@
 
 #navbar-example a {
   color: black;
-  
+
   z-index: 1;
   background-color: #ffe6f2;
 }
@@ -19,7 +19,7 @@ footer button{
 
 h1 {
   font-family:lucida calligraphy;
-  color: deeppink;
+  background-color: #ffe6f2;
 }
 
 .color{
@@ -38,12 +38,15 @@ h1 {
   font-size: 11px;
 }
 
+table a {
+  color:#993366;
+}
 body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #ffe6f2;
+    background-color: #ffffff;
     position: relative;
 }
 
